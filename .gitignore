@@ -1,0 +1,52 @@
+# GoLand specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Binary directory - exclude contents but keep directory
+/bin/*
+!/bin/.gitkeep
+
+# Compiled files
+*.o
+*.a
+
+# Debug files
+debug
+*.debug
+__debug_bin
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Build output
+dist/
