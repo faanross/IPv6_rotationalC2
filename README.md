@@ -129,14 +129,14 @@ The agent uses a `config.json` file that is embedded into the binary at build ti
 
 ### Configuration Parameters
 
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| `serverIPs` | Array of IPv6 addresses (must be in square brackets) | Various fe80:: addresses |
-| `port` | The port to connect to on the server | 8080 |
-| `sleep` | Base sleep time in seconds between connections | 10 |
-| `jitter` | Maximum random additional sleep time in seconds | 10 |
-| `data_jitter` | Maximum size in bytes for random data sent with each request | 1000 |
-| `rotation_counter` | Countdown timer before rotating to a new randomly-selected IP | 20 | 
+| Parameter | Description                                                     | Default |
+|-----------|-----------------------------------------------------------------|---------|
+| `serverIPs` | Array of IPv6 addresses (must be in square brackets)            | Various fe80:: addresses |
+| `port` | The port to connect to on the server                            | 8080 |
+| `sleep` | Base sleep time in seconds between connections                  | 10 |
+| `jitter` | Maximum random additional sleep time in seconds                 | 10 |
+| `data_jitter` | Maximum size in bytes for random data sent with each request    | 1000 |
+| `rotation_counter` | Connection counts before rotating to a new randomly-selected IP | 20 | 
 
 ## Usage
 
