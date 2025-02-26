@@ -150,7 +150,7 @@ The server will start and listen on all IPv6 addresses (`[::]`) on port 8080.
 ```bash
 ./agent
 ```
-- The agent will begin connecting by connecting to an IPv6 address randomly selected from list, sending random-sized data payloads.
+- The agent will begin by connecting to an IPv6 address randomly selected from list, sending a random-sized data payload.
 - It will disconnect and wait until (`sleep` + `jitter`) seconds pass before reconnecting.
 - It will also decrement `rotation_counter`.
 - It will continue to connect to the same IP in this fashion until `rotation_counter` reaches 0, whereafter it will randomly select a new IP from the list.
