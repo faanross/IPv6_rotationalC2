@@ -2,8 +2,7 @@
 
 - A proof-of-concept tool that demonstrates how IPv6 can be used for command and control (C2) communications with multiple addresses mapping to the same interface (aliasing).
 - Additionally, by staggering the rotations vs doing so on a per connection basis, a great degree of stealth can be achieved.
-- This project helps simulate C2 traffic patterns by rotating between multiple IPv6 addresses while communicating with a single server endpoint.
-- It is an accompaniment to the [following blog article](https://www.activecountermeasures.com/malware-of-the-day-ipv6-address-aliasing/), which fully details its conceptualization, development, and intended use
+- The tool is an accompaniment to the [following blog article](https://www.activecountermeasures.com/malware-of-the-day-ipv6-address-aliasing/), which fully details its conceptualization, development, and intended use
 
 ## Overview
 
